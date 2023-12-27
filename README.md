@@ -1,5 +1,6 @@
 # korean LicensePlateRecognition
 korean LicensePlateRecognition with YOLOv8 and easyOCR
+<br> If you found this repository useful, please let us know by staring this repo ★
 # 1. demo
 ## (1) set the project directory as bellow figure
 ![파일경로fig](https://github.com/kimmyju/LicensePlateOcr/assets/104639605/2f242188-302a-43b2-a65e-b94d75847dc2)
