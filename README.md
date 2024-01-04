@@ -27,5 +27,5 @@ dataset directory figure in this repos are as follows
 ![data경로](https://github.com/kimmyju/LicensePlateOcr/assets/104639605/a1d1b0c1-74cd-4194-859c-410fc0d12c18)
 
 
-<br>(2) OCR model: [[https://github.com/ultralytics/ultralytics](https://github.com/JaidedAI/EasyOCR)](https://github.com/JaidedAI/EasyOCR)
+<br>(2) OCR model: https://github.com/JaidedAI/EasyOCR
 <br>in this repos, OCR model was not trained(only detection model was trained). provided pretrained weights of easyOCR is used. 
