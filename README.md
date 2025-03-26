@@ -4,8 +4,6 @@ This project performs Korean license plate detection and recognition using **YOL
 
 > ★ If you found this repository useful, please support it by giving a ⭐!
 
----
-
 ## 📦 Requirements
 
 Make sure the following environments and packages are installed:
@@ -28,15 +26,11 @@ python main.py
 
 **Note**: You may need to manually modify the test image directory path (e.g., `'your/test/image/directory'`) inside `main.py` to match your own test image folder.
 
----
-
 ### 📁 (1) Project Directory Structure
 
 Ensure your project directory follows this structure:
 
 ![Project Structure](https://github.com/kimmyju/LicensePlateOcr/assets/104639605/2f242188-302a-43b2-a65e-b94d75847dc2)
-
----
 
 ### 🔍 (2) Overall Process
 
@@ -53,16 +47,12 @@ This project is based on:
 - **YOLOv8** for license plate detection  
 - **EasyOCR** for optical character recognition (OCR)
 
----
-
 ### 🗂 (1) Custom Dataset Used 
 
 To recognize Korean license plates, we first fine-tuned the YOLOv8 model using a public dataset that contains non-Korean license plates.  
 The dataset used for fine-tuning was obtained from Roboflow and can be found at the link below:
 
 🔗 [License Plates Detection Dataset](https://universe.roboflow.com/bright-line-solutions/license-plates-detection-anpr)
-
----
 
 ### 🔧 (2) License Plate Detection Model
 
@@ -76,8 +66,6 @@ Below is an example of the detection result after fine-tuning YOLOv8 on the data
 
 ![Detection Result](https://github.com/kimmyju/LicensePlateOcr/assets/104639605/02b6fb87-7826-4aee-97b2-b6ed7cfb0cc9)
 
----
-
 ### 🧠 (3) OCR Model
 
 > EasyOCR repository: [JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR)
@@ -88,3 +76,5 @@ The final result below shows the extracted and recognized text from the detected
 
 **Note**: The detection model was fine-tuned on a custom dataset in this project.  
 The OCR model uses **pretrained weights** provided by EasyOCR without additional training.
+
+---
