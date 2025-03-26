@@ -33,7 +33,7 @@ def easy_ocr(img, coordinates):
 
 if __name__ == '__main__':
     # license detection with yolov8 & returns id, image, bbox coord(x,y,w,h)
-    img_and_coord = yolo('test/test')
+    img_and_coord = yolo('your/test/image/directory')
     
     text_ocr = []
     # ocr
