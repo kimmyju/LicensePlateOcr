@@ -49,7 +49,9 @@ This project is based on:
 
 ### 🗂 (1) Custom Dataset Used 
 
-To recognize Korean license plates, we first fine-tuned the YOLOv8 model using a public dataset that contains non-Korean license plates.  
+To recognize Korean license plates, we first fine-tuned the YOLOv8 model using a public dataset that contains non-Korean license plates. 
+
+
 The dataset used for fine-tuning was obtained from Roboflow and can be found at the link below:
 
 🔗 [License Plates Detection Dataset](https://universe.roboflow.com/bright-line-solutions/license-plates-detection-anpr)
@@ -59,6 +61,7 @@ The dataset used for fine-tuning was obtained from Roboflow and can be found at 
 > YOLOv8 repository: [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
 
 Ensure your dataset directory structure is as follows:
+
 
 ![Dataset Structure](https://github.com/kimmyju/LicensePlateOcr/assets/104639605/a1d1b0c1-74cd-4194-859c-410fc0d12c18)
 
